@@ -30,7 +30,7 @@ const services: Service[] = [
     packages: [
       {
         name:     "Basic",
-        price:    "$150",
+        price:    "€140 / $150",
         delivery: "3 days",
         features: [
           "Next.js 14 + Tailwind setup",
@@ -42,7 +42,7 @@ const services: Service[] = [
       },
       {
         name:     "Standard",
-        price:    "$350",
+        price:    "€320 / $350",
         delivery: "5 days",
         popular:  true,
         features: [
@@ -56,7 +56,7 @@ const services: Service[] = [
       },
       {
         name:     "Premium",
-        price:    "$650",
+        price:    "€600 / $650",
         delivery: "10 days",
         features: [
           "Everything in Standard",
@@ -72,26 +72,26 @@ const services: Service[] = [
   },
   {
     icon:    "💳",
-    title:   "Stripe Integration",
+    title:   "Payment Integration",
     tagline: "Payments that work first time — and every time after",
     desc:
-      "You get a Stripe integration that handles the tricky parts: webhook idempotency, failed payment recovery, proration, and test coverage.",
-    fiverrUrl: "https://www.fiverr.com/gianpi_96/stripe-integration",
+      "You get a payment integration that handles the tricky parts: webhooks, failed payment recovery, and test coverage. Stripe, PayPal, Google Pay, Apple Pay, Paddle — whichever fits your business.",
+    fiverrUrl: "https://www.fiverr.com/gianpi_96/payment-integration",
     packages: [
       {
         name:     "Basic",
-        price:    "$120",
+        price:    "€110 / $120",
         delivery: "2 days",
         features: [
-          "Stripe Checkout session",
-          "One-time or subscription",
+          "Checkout session (one-time or subscription)",
+          "Stripe, PayPal, or Google Pay",
           "Webhook handler (3 events)",
           "Sandbox + production setup",
         ],
       },
       {
         name:     "Standard",
-        price:    "$280",
+        price:    "€260 / $280",
         delivery: "4 days",
         popular:  true,
         features: [
@@ -105,14 +105,14 @@ const services: Service[] = [
       },
       {
         name:     "Premium",
-        price:    "$500",
+        price:    "€460 / $500",
         delivery: "7 days",
         features: [
           "Everything in Standard",
           "Usage-based / metered billing",
           "Multi-currency support",
           "Revenue analytics endpoint",
-          "Full test suite (Stripe CLI)",
+          "Full test suite",
           "30-min strategy call",
         ],
       },
@@ -128,7 +128,7 @@ const services: Service[] = [
     packages: [
       {
         name:     "Basic",
-        price:    "$200",
+        price:    "€185 / $200",
         delivery: "4 days",
         features: [
           "Single-tool agent (e.g. email classifier)",
@@ -139,7 +139,7 @@ const services: Service[] = [
       },
       {
         name:     "Standard",
-        price:    "$450",
+        price:    "€415 / $450",
         delivery: "7 days",
         popular:  true,
         features: [
@@ -152,7 +152,7 @@ const services: Service[] = [
       },
       {
         name:     "Premium",
-        price:    "$900",
+        price:    "€830 / $900",
         delivery: "14 days",
         features: [
           "Everything in Standard",
